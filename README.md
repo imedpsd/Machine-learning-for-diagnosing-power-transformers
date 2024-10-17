@@ -43,11 +43,10 @@ Each method is evaluated and enhanced using various pre-processing techniques an
 
 ## Custom Decision Tree
 To further improve the diagnostic accuracy, we built a **custom decision tree** tailored to this specific problem. This model outperformed the others, achieving a **99.375% accuracy** on the test dataset.
+![The best DT](Images/DT.png)
 
 ## Repository Contents
 - **Data Preprocessing**: Steps to create the eight input vectors from the raw DGA data.
 - **ML Models**: Implementation of SVM, Random Forest, and XGBoost models, along with performance enhancements.
 - **Custom Decision Tree**: The custom-built decision tree model, which provides the highest diagnostic accuracy.
 
-## Results
-- Best diagnostic accuracy: **99.375%** (Custom Decision Tree)
