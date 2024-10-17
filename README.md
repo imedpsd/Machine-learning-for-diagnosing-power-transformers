@@ -1,1 +1,3 @@
 # Machine-learning-for-diagnosing-power-transformers
+## Hello!
+this was my end of study projects where it focuses on diagnosing the condition of power transformer oil through dissolved gas analysis consisting of H2, CH4, C2H2, C2H4, and C2H6. For this purpose, many machine learning algorithms have been developed (SVM, RandomForest, XGBoost). **eight input vectors** have been considered, and **several pre-processing techniques were used.** The database used contains 666 samples, of which 506 are selected for training and 160 for testing. Inspired by international standards such as IEC and IEEE, six electrical and thermal faults have been considered, namely PD, D1, D2, T1, T2, and T3. The best diagnostic rate of **99.375%** was achieved using a custom-built decision tree.
