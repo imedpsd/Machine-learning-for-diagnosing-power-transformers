@@ -26,7 +26,9 @@ Eight input vectors were considered, based on methodologies from Kherif et al. (
 - **Vector 3**: Roger’s four-ratio method: [CH₄/H₂, C₂H₂/C₂H₄, etc.].
 - **Vector 4**: Dornenburg’s four gas ratios in ppm: [C₂H₂/C₂H₄, CH₄/H₂, etc.].
 - **Vector 5**: Duval Triangle method: [Cx, Cy] computed from three gases.
+![Duval Triangle Example](Images/Tri.png)
 - **Vector 6**: Duval Pentagon method: [Cpx, Cpy] using all five gases.
+![Duval Pentagon Example](images/penta.png)
 - **Vector 7**: Combination of Roger’s and Dornenburg’s ratios (five ratios).
 - **Vector 8**: Combination of Duval Triangle and Pentagon methods: [Cx, Cy, Cpx, Cpy].
 
