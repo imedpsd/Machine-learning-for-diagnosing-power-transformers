@@ -18,8 +18,18 @@ The dataset was analyzed for six types of electrical and thermal faults based on
 - **T2** (Thermal Faults 300°C - 700°C)
 - **T3** (Thermal Faults > 700°C)
 
-## Features (Input Vectors)
-The model uses **eight input vectors**, derived from the DGA data, for training and testing. Details on the creation of these vectors can be found in the corresponding notebook.
+## DGA Input Vectors
+Eight input vectors were considered, based on methodologies from Kherif et al. (2021) [21]:
+
+- **Vector 1**: Raw concentrations of the five gases: [H₂, CH₄, C₂H₂, C₂H₄, C₂H₆].
+- **Vector 2**: IEC Ratios method using three gas ratios: [CH₄/H₂, C₂H₂/CH₄, C₂H₄/C₂H₆].
+- **Vector 3**: Roger’s four-ratio method: [CH₄/H₂, C₂H₂/C₂H₄, etc.].
+- **Vector 4**: Dornenburg’s four gas ratios in ppm: [C₂H₂/C₂H₄, CH₄/H₂, etc.].
+- **Vector 5**: Duval Triangle method: [Cx, Cy] computed from three gases.
+- **Vector 6**: Duval Pentagon method: [Cpx, Cpy] using all five gases.
+- **Vector 7**: Combination of Roger’s and Dornenburg’s ratios (five ratios).
+- **Vector 8**: Combination of Duval Triangle and Pentagon methods: [Cx, Cy, Cpx, Cpy].
+
 
 ## Machine Learning Models
 This repository includes notebooks for the implementation of several machine learning models:
